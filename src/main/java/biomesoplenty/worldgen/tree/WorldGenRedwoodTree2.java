@@ -78,10 +78,13 @@ public class WorldGenRedwoodTree2 extends WorldGenerator
 						{
 							var12 = par1World.getBlockId(var10, var8, var11);
 
+							// This check always returns false, not needed since already a check for saplings
+							/*
 							if (var12 != 0 && var12 != Blocks.leavesColorized1.get().blockID && var12 != Block.grass.blockID && var12 != Block.dirt.blockID && var12 != Blocks.logs3.get().blockID)
 							{
 								var7 = false;
 							}
+							*/
 						}
 						else
 						{
