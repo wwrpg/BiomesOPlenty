@@ -289,6 +289,23 @@ public class BOPCrafting
 		//Honeycombs
 		GameRegistry.addRecipe(new ItemStack(Blocks.hive.get(), 1, 0), new Object [] {"##", "##", Character.valueOf('#'), new ItemStack(Items.miscItems.get(), 1, 2)});
 		GameRegistry.addRecipe(new ItemStack(Blocks.hive.get(), 1, 3), new Object [] {"##", "##", Character.valueOf('#'), new ItemStack(Items.food.get(), 1, 9)});
+		GameRegistry.addRecipe(new ItemStack(Items.food.get(), 5, 9), new Object[] {"CCC", "CHC", "CCC", 'C', new ItemStack(Items.miscItems.get(), 1, 2), 'H', new ItemStack(Items.jarFilled.get(),1, 0)});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 1, 3), new Object[] {new ItemStack(Blocks.hive.get(), 1, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 2, 3), new Object[] {new ItemStack(Blocks.hive.get(), 2, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 3, 3), new Object[] {new ItemStack(Blocks.hive.get(), 3, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 4, 3), new Object[] {new ItemStack(Blocks.hive.get(), 4, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 5, 3), new Object[] {new ItemStack(Blocks.hive.get(), 5, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 6, 3), new Object[] {new ItemStack(Blocks.hive.get(), 6, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 7, 3), new Object[] {new ItemStack(Blocks.hive.get(), 7, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 8, 3), new Object[] {new ItemStack(Blocks.hive.get(), 8, 0), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 1, 3), new Object[] {new ItemStack(Blocks.hive.get(), 1, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 2, 3), new Object[] {new ItemStack(Blocks.hive.get(), 2, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 3, 3), new Object[] {new ItemStack(Blocks.hive.get(), 3, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 4, 3), new Object[] {new ItemStack(Blocks.hive.get(), 4, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 5, 3), new Object[] {new ItemStack(Blocks.hive.get(), 5, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 6, 3), new Object[] {new ItemStack(Blocks.hive.get(), 6, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 7, 3), new Object[] {new ItemStack(Blocks.hive.get(), 7, 2), Blocks.honeyBlock.get()});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.hive.get(), 8, 3), new Object[] {new ItemStack(Blocks.hive.get(), 8, 2), Blocks.honeyBlock.get()});
 		
 		//Plants
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.food.get(), 2, 1), new Object[] {new ItemStack(Blocks.mushrooms.get(),1,0)});
